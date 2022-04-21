@@ -1,0 +1,63 @@
+.home-card {
+	/* margin: 30px auto 30px auto; */
+	background-color: #fff;
+	border-radius: 10px;
+	border-color: #fff;
+	margin: auto auto 30px auto;
+	box-shadow: 1px 0px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+	margin: auto;
+	line-height: 1.8;
+	width: 96%;
+}
+
+.card-img {
+	margin: 40px auto 10px auto;
+}
+
+.home-btn {
+	position: "relative";
+	text-align: "center";
+	background-color: #d8f3ff;
+	border-color: #d8f3ff;
+	border-radius: 15px;
+	padding: 10px 25px 10px 25px;
+	color: #00aeff;
+	margin: auto auto 30px auto;
+}
+
+/* Responsive elements for bottom section */
+
+/* @media screen and (min-width: 960px) {
+	.account-card:hover {
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	}
+} */
+
+@media screen and (max-width: 991px) {
+	.card-text {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 944px) {
+	.card-text {
+		width: 91%;
+	}
+}
+@media screen and (max-width: 936px) {
+	.card-text {
+		width: 92%;
+	}
+}
+@media screen and (max-width: 925px) {
+	.card-text {
+		width: 76%;
+	}
+}
+@media screen and (max-width: 893px) {
+	.card-text {
+		width: 80%;
+	}
+}
