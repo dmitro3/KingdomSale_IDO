@@ -69,12 +69,12 @@ export default function TokenInfo() {
 		console.log(_tokenPrice, _feeToken, _endTime, _minEth, _maxEth, _maxTokens)
 		try{
 			const tx = await IDO.methods.createIDO(
-				1,
+				_tokenPrice,
 				_feeToken,
-				2,
-				3,
-				4,
-				5
+				_endTime,
+				_minEth,
+				_maxEth,
+				_maxTokens
 			).send({
 				from:account
 			}) 
