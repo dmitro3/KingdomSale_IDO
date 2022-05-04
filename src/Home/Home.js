@@ -14,8 +14,7 @@ function Home() {
 				</h1>
 				<p style={{ margin: "auto", textAlign: "center", width: "60%" }}>
 					KingdomSale helps everyone to create their own tokens and token sales
-					in few seconds. Tokens created on KingdomSale will be verified and
-					published on explorer websites.
+					in few seconds.
 				</p>
 
 				<Row className="mt-4 justify-content-center">
